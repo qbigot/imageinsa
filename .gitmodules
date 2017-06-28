@@ -1,3 +1,6 @@
 [submodule "lib/detiq-t"]
 	path = lib/detiq-t
 	url = https://github.com/eiimage/detiq-t.git
+[submodule "detiq-t"]
+	path = detiq-t
+	url = https://github.com/eiimage/detiq-t.git
