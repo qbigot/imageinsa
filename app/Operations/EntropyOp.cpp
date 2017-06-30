@@ -39,13 +39,11 @@ void EntropyOp::operator()(const imagein::Image* image, const std::map<const ima
         for(int i = 0; i < 256; ++i) {
             if(histo[i] > 0) {
                 double p = (double)histo[i] / image->getWidth() /image->getHeight();
-                entropy +=  p * log(p);
-                entropy = - entropy / log(2);
-
+                entropy +=  p * log(p);                
             }
-
         }
     }
+    entropy = - entropy / log(2);
     outText(qApp->translate("Operations", "Entropy of the image = %1").arg(entropy).toStdString());
 
 }

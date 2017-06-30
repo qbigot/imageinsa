@@ -98,11 +98,10 @@ ThresholdDialog::ThresholdDialog(const GrayscaleImage* image, bool converted)  :
     QVBoxLayout* Vboxlayout = new QVBoxLayout();
     if(converted) {
         Vboxlayout->addWidget(new QLabel(tr("<font color=red><i>Information : The input image has been converted to grayscale.</i></font>")));
-        Vboxlayout->addWidget(new QLabel(tr("<font color=red><i>Right clic to move the second threshold.</i></font>")));
     }
     QGroupBox* threshGroup = new QGroupBox(tr("Threshold"), this);
     QHBoxLayout* threshLayout = new QHBoxLayout(threshGroup);
-    _doubleBox = new QCheckBox(tr("Double threshold"));
+    _doubleBox = new QCheckBox(tr("Double threshold (right clic to move the second threshold)"));
     threshLayout->addWidget(_doubleBox);
     Vboxlayout->addWidget(threshGroup);
 

@@ -1683,11 +1683,6 @@ Nombre de classes = %1 </translation>
         <source>&lt;font color=red&gt;&lt;i&gt;Information : The input image has been converted to grayscale.&lt;/i&gt;&lt;/font&gt;</source>
         <translation>&lt;font color=red&gt;&lt;i&gt;Information : L&apos;image d&apos;entrée a été convertie en niveaux de gris.&lt;/i&gt;&lt;/font&gt;</translation>
     </message>
-	<message>
-        <location filename="Operations/ThresholdDialog.cpp" line="65"/>
-        <source>&lt;font color=red&gt;&lt;i&gt;Right clic to move the second threshold.&lt;/i&gt;&lt;/font&gt;</source>
-        <translation>&lt;font color=red&gt;&lt;i&gt;Clic droit pour déplacer le deuxième seuil.&lt;/i&gt;&lt;/font&gt;</translation>
-    </message>
     <message>
         <location filename="Operations/ThresholdDialog.cpp" line="68"/>
         <source>Threshold</source>
@@ -1695,8 +1690,8 @@ Nombre de classes = %1 </translation>
     </message>
     <message>
         <location filename="Operations/ThresholdDialog.cpp" line="70"/>
-        <source>Double threshold</source>
-        <translation>Double seuil</translation>
+        <source>Double threshold (right clic to move the second threshold)</source>
+        <translation>Double seuil (clic droit pour déplacer le deuxième seuil)</translation>
     </message>
     <message>
         <location filename="Operations/ThresholdDialog.cpp" line="79"/>
